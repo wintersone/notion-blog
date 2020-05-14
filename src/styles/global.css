@@ -1,27 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  font-family: 'Inter', 'Helvetica Neue',-apple-system,BlinkMacSystemFont,Helvetica,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Microsoft Yahei',sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', 'Helvetica Neue',-apple-system,BlinkMacSystemFont,Helvetica,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Microsoft Yahei',sans-serif;
+  }
+}
+
 body {
   margin: 0;
   color: #111;
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.65;
   word-break: break-word;
   word-wrap: break-word;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
-  font-family: 'PT Sans', 'Helvetica Neue',-apple-system,BlinkMacSystemFont,Helvetica,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Microsoft Yahei',sans-serif;
-  font-feature-settings: 'liga' 1,'dlig' 1,'lnum' 1,'ordn' 1,'halt' 1,'kern' 1,'kern','mgrk';
-  font-kerning: auto;
-  font-variant: normal;
+  font-feature-settings: 'calt', 'case', 'rlig';
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   background-color: white;
+  font-weight: 400;
 }
 
 *::selection {
@@ -105,11 +113,11 @@ article b {
 }
 
 article a {
-  color: inherit;
+  color: #006fd0;
   text-decoration: none;
 }
 
-article p a, article li a, article blockquote a{
+article p a:hover, article li a:hover, article blockquote a:hover {
   text-decoration: underline;
   text-underline-position: auto;
   cursor: pointer;
