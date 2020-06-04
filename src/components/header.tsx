@@ -5,7 +5,6 @@ import { useRouter } from 'next/router'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Blog', page: '/blog' },
-  { label: 'Visual', link: 'https://works.shud.in' },
   { label: 'About', page: '/' }
 ]
 
@@ -16,12 +15,12 @@ export default ({ title = '', children = null }) => {
 
   return <>
     <Head>
-      <title>{title || 'Shu'}</title>
+      <title>{title || 'Huan'}</title>
       <meta
         name="description"
-        content="Shu’s thoughts"
+        content="Huan’s thoughts"
       />
-      <meta name="og:title" content="Shu" />
+      <meta name="og:title" content="Huan" />
     </Head>
     <header>
       <div>{children}</div>
