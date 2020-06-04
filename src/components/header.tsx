@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Blog', page: '/blog' },
-  { label: 'About', page: '/' }
+  { label: 'About', page: '/about' }
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
