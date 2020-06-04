@@ -23,7 +23,7 @@ export default ({ post }) => {
   return (
     <article>
       <h1>Huan</h1>
-      <Header title="zpf" />
+      <Header title="Huan" />
       <Content blocks={post.content || []}/>
     </article>
   )
