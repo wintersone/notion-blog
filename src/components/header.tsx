@@ -15,12 +15,12 @@ export default ({ title = '', children = null }) => {
 
   return <>
     <Head>
-      <title>{title || 'Huan'}</title>
+      <title>{title || 'Wintersone'}</title>
       <meta
         name="description"
-        content="Huan’s thoughts"
+        content="Random Opinion"
       />
-      <meta name="og:title" content="Huan" />
+      <meta name="og:title" content="Wintersone" />
     </Head>
     <header>
       <div>{children}</div>
