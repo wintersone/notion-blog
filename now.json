@@ -10,7 +10,7 @@
     "BLOG_INDEX_ID": "@blog-index-id"
   },
   "routes": [
-    { "src": "/", "dest":"/blog"},
+    { "src": "/", "dest":"/"},
     {
       "src": "/posts/(.+)",
       "status": 301,
