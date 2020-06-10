@@ -23,7 +23,7 @@ export default ({ post }) => {
   return (
     <article>
       <h1>About</h1>
-      <Header title="About" />
+      <Header title="关于" />
       <Content blocks={post.content || []}/>
     </article>
   )
